@@ -25,4 +25,11 @@ for i in range(10):
         evens.append(i)
 #print(evens)
 
+# Example #3.  creating a list of list using a matrix
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+flattened = []
+for row in matrix:
+    for element in row:
+        flattened.append(element)
+#print(flattened)
 
