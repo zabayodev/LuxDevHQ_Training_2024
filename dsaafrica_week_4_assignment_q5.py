@@ -25,3 +25,13 @@ d = {
 
 result = closest_key(d, 'z')
 print(result)
+'''
+The function initializes closest to None and min_index to infinity.
+It iterates over each key-value pair in the dictionary.
+For each list in the dictionary, it checks if the target letter exists.
+If the target letter is found, the function calculates its index in the list.
+If this index is smaller than the currently stored min_index, the function updates min_index and sets closest to the current key.
+The function returns the key that has the target letter closest to the beginning of the list.
+In the provided example, the letter 'a' appears in the list for key 'c' at index 0, which is closer to the beginning compared to its position in other lists. Therefore, the function returns 'c'.
+
+'''
