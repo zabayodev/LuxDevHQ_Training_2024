@@ -34,3 +34,4 @@ print(my_set)
 
 # or using a set functions
 my_set = set([1, 2, 3, 4, 5])
+print(my_set)
