@@ -23,3 +23,14 @@ print(my_tuple)
 
 my_dict = {'name': 'Alice', 'age': 30, 'is_student': False}
 print(my_dict)
+
+# 4. set
+'''A set in Python is a collection of unique elements, meaning it cannot contain duplicate items. Sets are unordered, 
+so the elements do not have a specific position or index. Sets are mutable, which means you can add or remove 
+items after the set is created. However, the elements themselves must be immutable (e.g., numbers, strings, tuples).'''
+
+my_set = {1, 2, 3, 4, 5}
+print(my_set)
+
+# or using a set functions
+my_set = set([1, 2, 3, 4, 5])
