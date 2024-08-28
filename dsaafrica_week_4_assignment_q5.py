@@ -16,7 +16,7 @@ def closest_key(d, target):
                 closest = key
 
     return closest
-
+# Testing the feasibility of the function
 d = {
     'a': ['x', 'y', 'z'],
     'b': ['y', 'z', 'a'],
