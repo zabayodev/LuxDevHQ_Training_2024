@@ -12,6 +12,17 @@ generating lists compared to traditional methods like loops.
 #iterable: The collection to loop over such as a list and a range.
 #condition which is optional is a filter that determines if an item should be included in the new list.
 
+# Example #1.  creating a list of squares for numbers from 0 to 9
+squares = []
+for i in range(10):
+    squares.append(i**2)
+#print(squares)
 
+# Example #2.  creating a list of even numbers from 0 to 9.
+evens = []
+for i in range(10):
+    if i % 2 == 0:
+        evens.append(i)
+#print(evens)
 
 
